@@ -3,29 +3,49 @@
         <title>
             LITZZ
         </title>
-        <link rel="stylesheet" href="C:\Users\19BIT053\main.css">
+        <link rel="stylesheet" href="C:\LITZZ\College-projects-main\main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet">
     </head>
-    <body style="background-image: linear-gradient(to right,#42f58a,#54f0de);">
+    <body style="background-image: linear-gradient(to right,cyan 50%,#54f0de);">
+        <marquee behavior="scroll" scrollmount="0.1"  direction="right" id="marq">This is a survey of how much do you like Logendar R</marquee>
         <!-- heading -->
         <div class="heading" align="center" >LOGANLITZZ SURVEY FORM</div>
-        <!-- FORM START -->
-        <form class="form">
-            Name
-            <input type="text" class="in" id="name-input"></input><br>
-            Last name
-            <input type="text" class="in" id="second-input"><br>
-            Password
-            <input type="password" class="in" id="password-input">
-            <!-- radio -->
-            <div class="age">Age category:</div>
-            <input type="radio" class="age-cat">Above 18</input>
-            <input type="radio" class="age-cat">Below 18</input>
-             <div class="discription"></div>
-
-            </form>
-        <!-- form end -->
+        <!-- flex start -->
+        <div class="flexbox">
+            <!-- colum 1 -->
+            <div class="column1">
+            <!-- FORM START -->
+                <form class="form">
+           
+                <div style="font-family: 'Hurricane', cursive;"> Name:
+                <input type="text" class="in" id="name-input" placeholder="Enter your First name"></input><br>
+                </div>
+                <div style="font-family: 'Hurricane', cursive;">
+                Last name:
+                <input type="text" class="in" id="second-input" placeholder="Enter your Last name"><br>
+                </div>
+                <!-- radio -->
+                <div class="age" style="font-family: 'Hurricane', cursive;">Age category:</div>
+                <input type="radio" class="age-cat" style="font-family: 'Hurricane', cursive;">Above 18</input>
+                <input type="radio" class="age-cat" style="font-family: 'Hurricane', cursive;">Below 18</input>
+                <div>
+                 Description:
+                 <input type="text" class="discription" placeholder="Enter your thoughts"></input>
+                </div>
+                </form>
+            <!-- form end -->
+            </div>
+            <!-- colum 1 end -->
+            <!-- column 2 -->
+            <div class="column2">
+            <img src="C:\LITZZ\College-projects-main\1116829.png" alt="" class="image">
+            </div>
+            <button type="submit" class="submit"><b>Submit</b></button>
+            <!-- column 2 end -->
+        </div>
+        <!-- Flex end -->
+        <script type="text/javascript" src="C:\LITZZ\College-projects-main\index.js"></script> 
     </body>
 </html>
