@@ -1,0 +1,20 @@
+
+.heading{
+    border-left: 1000px;
+    font-size: 30px;
+    font-family: 'Hurricane', cursive;
+}
+.in{
+    border-radius: 8%;
+    margin-top: 1rem;
+}
+.form{
+    font-family: 'Hurricane', cursive;
+    background-image: linear-gradient(to right,#4fdbf7,#418ef2);
+    flex-direction: column;
+    margin-top: 5rem;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
