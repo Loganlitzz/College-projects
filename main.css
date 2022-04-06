@@ -8,23 +8,26 @@
     font-family: 'Hurricane', cursive;
     margin-left: 10px;
     border-spacing: 10px;
-    border-radius: 8%;
+    border-radius: 8px;
     margin-top: 1rem;
     border-color: cyan;
 }
 .flexbox{
+    border-color: red;
+    list-style-type: none;
     position: relative;
     background-image: linear-gradient(to right,#4fdbf7 50%,#418ef2);
     display:flex;
+    flex-wrap: nowrap;
     flex-direction: row;
-    margin-top: 5rem;
+    margin-top: 3rem;
     width: 40rem;
-    flex-basis: content;
+    flex-basis: inherit;
     align-items: left;
     align-content: space-between;
     justify-content: left;
-    
 }
+
 #marq{
     font-family: 'Hurricane', cursive;
 }
@@ -32,22 +35,41 @@
     position: relative;
     height: 20rem;
     width: 35vh;
-    /* margin-left: 45rem; */
+    clip-path: circle();
 }
-.column2{
+/* .column2{
 padding-left: 10rem;
 margin-left: 10rem;
-}
+} */
 .submit{
+    margin-left: 10rem;
+    height: 50px;
+    width: vh;
     background-color: lightcoral;
     align-self: flex-end;
-    border-radius: 8%;
+    border-radius: 5px;
     border-color: cyan;
 }
-submit :hover{
-    color: red;
+
+@keyframes button{
+    0%{
+background-color: lightcoral;
+    }
+    50%{
+background-color: #418ef2;
+    }
+    100%{
+background-color: cyan;
+    }
 }
-.discription{
+
+.submit:hover{
+    animation-name: button;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.discription1{
+   border-color: red;
     position: relative;
     height: 5rem;
     margin-top: 10px;
@@ -55,3 +77,17 @@ submit :hover{
     border-spacing: 0rem;
 }
 
+.discription2{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 28px;
+}
+.script{
+position: fixed;
+
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
